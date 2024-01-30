@@ -69,4 +69,49 @@ export const MY_RESUME_DATA = {
       end: "2011",
     },
   ],
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js/Vue.js",
+    "Node.js",
+    "GraphQL",
+  ],
+  projects: [
+    {
+      title: "鲜活源",
+      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      description: "一个后台管理系统",
+      link: {
+        label: "baidu.com",
+        href: "https://baidu.com",
+      },
+    },
+    {
+      title: "鲜活源",
+      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      description: "一个后台管理系统",
+      link: {
+        label: "baidu.com",
+        href: "https://baidu.com",
+      },
+    },
+    {
+      title: "鲜活源",
+      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      description: "一个后台管理系统",
+      link: {
+        label: "baidu.com",
+        href: "https://baidu.com",
+      },
+    },
+    {
+      title: "鲜活源",
+      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      description: "一个后台管理系统",
+      link: {
+        label: "baidu.com",
+        href: "https://baidu.com",
+      },
+    },
+  ],
 };
