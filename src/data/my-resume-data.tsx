@@ -45,5 +45,28 @@ export const MY_RESUME_DATA = {
       description:
         "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
     },
+    {
+      company: "易客网络",
+      link: "https://www.newhopedairy.cn",
+      title: "web前端开发工程师",
+      start: "2018",
+      end: "2016",
+      description:
+        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+    },
+  ],
+  education: [
+    {
+      school: "电子科技大学",
+      degree: "软件工程",
+      start: "2020",
+      end: "2018",
+    },
+    {
+      school: "四川航天职业技术学院",
+      degree: "物流管理",
+      start: "2014",
+      end: "2011",
+    },
   ],
 };
