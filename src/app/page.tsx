@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MailIcon, PhoneIcon, GlobeIcon, PrinterIcon } from "lucide-react";
+import { MailIcon, PhoneIcon, GlobeIcon } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Section } from "@/components/ui/section";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";

@@ -1,7 +1,7 @@
 "use client";
 import { PrinterIcon } from "lucide-react";
 import { Button } from "./ui/button";
-export function PrintButton() {
+export const PrintButton = () => {
   return (
     <Button
       onClick={() => window.print()}
@@ -12,4 +12,4 @@ export function PrintButton() {
       <PrinterIcon className="my-6 size-6" />
     </Button>
   );
-}
+};
