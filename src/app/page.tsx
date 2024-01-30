@@ -1,15 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { MailIcon, PhoneIcon, GlobeIcon } from "lucide-react";
+import { MailIcon, PhoneIcon, GlobeIcon, PrinterIcon } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Section } from "@/components/ui/section";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ProjectCard } from "@/components/projectCard";
+import { ProjectCard } from "@/components/project-card";
+import { PrintButton } from "@/components/print-button";
 import { MY_RESUME_DATA } from "@/data/my-resume-data";
 
 export default function Home() {
   return (
-    <main className="container mx-auto p-4 md:p-16 print:p-12">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -79,7 +80,7 @@ export default function Home() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="print-force-new-page">
           <h2 className="text-xl font-bold">教育</h2>
           {MY_RESUME_DATA.education.map((education) => {
             return (
@@ -109,7 +110,7 @@ export default function Home() {
             })}
           </div>
         </Section>
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {MY_RESUME_DATA.projects.map((project) => {
@@ -126,6 +127,7 @@ export default function Home() {
           </div>
         </Section>
       </section>
+      <PrintButton />
     </main>
   );
 }
