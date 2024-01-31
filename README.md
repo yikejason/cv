@@ -1,4 +1,4 @@
-# Jason cv Website
+# Jason Cv Website
 
 This is a cv website built with Next.js shadcn/ui、Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
 
