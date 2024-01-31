@@ -7,9 +7,9 @@ export const PrintButton = () => {
       onClick={() => window.print()}
       variant="outline"
       size="icon"
-      className="fixed right-16 top-16 rounded-full shadow-2xl print:hidden"
+      className="fixed right-16 top-16 hidden rounded-full shadow-2xl lg:block print:hidden"
     >
-      <PrinterIcon className="my-6 size-6" />
+      <PrinterIcon className="print-icon-margin-left size-6" />
     </Button>
   );
 };

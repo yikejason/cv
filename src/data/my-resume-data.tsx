@@ -1,5 +1,5 @@
 export const MY_RESUME_DATA = {
-  name: "天天",
+  name: "余天雄",
   about: "我是一名前端工程师, 目前工作在成都, 如果看到我的简历请联系我",
   location: "四川,成都",
   email: "18215513386@163.com",
@@ -16,16 +16,16 @@ export const MY_RESUME_DATA = {
       start: "2022",
       end: "2024",
       description:
-        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+        "负责鲜活源项目监察微信小程序、鲜活源后台管理业务和对应业务组件的开发。技术：React、Vue、uni-app、TypeScript、ant-design",
     },
     {
       company: "博彦科技",
-      link: "https://www.newhopedairy.cn",
+      link: "https://www.beyondsoft.com/",
       title: "web前端开发工程师",
       start: "2022",
       end: "2019",
       description:
-        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+        "负责香港支付宝小程序、公司内部流程工具的开发，就职期间，创建了一支内部流程工具开发小队。技术： React、TypeScript、ant-design、umi",
     },
     {
       company: "成都燃光科技",
