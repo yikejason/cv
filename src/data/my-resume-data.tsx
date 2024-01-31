@@ -4,7 +4,7 @@ export const MY_RESUME_DATA = {
   location: "四川,成都",
   email: "18215513386@163.com",
   tel: "18215513386",
-  avatarUrl: "https://github.com/shadcn.png",
+  avatarUrl: "/vercel.svg",
   avatarInit: "JA",
   summary:
     "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的工作环境，目前，我使用TypeScript，React，和Node.js。我已经拥有了6年的开发经验在前端开发的工作上。所以我能够胜任前端任何方面的工作。",
