@@ -40,6 +40,18 @@ export default function Home() {
                 </a>
               </Button>
             </div>
+            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
+              {MY_RESUME_DATA.email ? (
+                <a href={`mailto:${MY_RESUME_DATA.email}`}>
+                  <span className="underline">{MY_RESUME_DATA.email}</span>
+                </a>
+              ) : null}
+              {MY_RESUME_DATA.tel ? (
+                <a href={`tel:${MY_RESUME_DATA.tel}`}>
+                  <span className="underline">{MY_RESUME_DATA.tel}</span>
+                </a>
+              ) : null}
+            </div>
           </div>
 
           <Avatar className="size-28">
