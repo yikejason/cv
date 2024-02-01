@@ -34,11 +34,25 @@ export default function Home() {
                   <MailIcon className="size-4" />
                 </a>
               </Button>
+              <a
+                className="flex items-center"
+                href={`mailto:${MY_RESUME_DATA.email}`}
+              >
+                {MY_RESUME_DATA.email}
+              </a>
+            </div>
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               <Button className="size-8" variant="outline" size="icon" asChild>
                 <a href={`tel:${MY_RESUME_DATA.tel}`}>
                   <PhoneIcon className="size-4" />
                 </a>
               </Button>
+              <a
+                className="flex items-center"
+                href={`tel:${MY_RESUME_DATA.tel}`}
+              >
+                {MY_RESUME_DATA.tel}
+              </a>
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {MY_RESUME_DATA.email ? (
