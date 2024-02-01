@@ -4,10 +4,14 @@ export const MY_RESUME_DATA = {
   location: "四川,成都",
   email: "18215513386@163.com",
   tel: "18215513386",
-  avatarUrl: "/vercel.svg",
+  gitHub: {
+    link: "https://github.com/yikejason",
+    name: "yikejason",
+  },
+  avatarUrl: "/avatar.jpeg",
   avatarInit: "JA",
   summary:
-    "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的前端项目。目前，我使用TypeScript、React、uni-app、ant-design等开发项目。我已经拥有了6年的开发经验在前端开发的工作上。",
+    "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的前端项目。目前，我使用TypeScript、React、Vue、Next.js、uni-app、ant-design等开发项目。我已经拥有了6年的开发经验在前端开发的工作上。",
   personalStrengths: [
     "1.熟练掌握 JavaScript、TypeScript、CSS 以及 ES6 - ES10 的新特性",
     "2.擅长 React、Vue.js 技术栈及其生态，能快速运用相关技术完成项目的开发",

@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { ProjectCard } from "@/components/project-card";
 import { PrintButton } from "@/components/print-button";
 import { MY_RESUME_DATA } from "@/data/my-resume-data";
+import { GitHubIcon } from "@/components/icons/githubIcon";
 
 export default function Home() {
   return (
@@ -54,6 +55,19 @@ export default function Home() {
                 {MY_RESUME_DATA.tel}
               </a>
             </div>
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+              <Button className="size-8" variant="outline" size="icon" asChild>
+                <a href={MY_RESUME_DATA.gitHub.link}>
+                  <GitHubIcon className="size-4" />
+                </a>
+              </Button>
+              <a
+                className="flex items-center"
+                href={MY_RESUME_DATA.gitHub.link}
+              >
+                {MY_RESUME_DATA.gitHub.name}
+              </a>
+            </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {MY_RESUME_DATA.email ? (
                 <a href={`mailto:${MY_RESUME_DATA.email}`}>
@@ -63,6 +77,13 @@ export default function Home() {
               {MY_RESUME_DATA.tel ? (
                 <a href={`tel:${MY_RESUME_DATA.tel}`}>
                   <span className="underline">{MY_RESUME_DATA.tel}</span>
+                </a>
+              ) : null}
+              {MY_RESUME_DATA.gitHub.name ? (
+                <a href={MY_RESUME_DATA.gitHub.link}>
+                  <span className="underline">
+                    {MY_RESUME_DATA.gitHub.name}
+                  </span>
                 </a>
               ) : null}
             </div>
