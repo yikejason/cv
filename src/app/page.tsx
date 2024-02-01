@@ -80,19 +80,6 @@ export default function Home() {
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">个人优势</h2>
-          <div className="flex min-h-0 flex-col">
-            {MY_RESUME_DATA.personalStrengths.map((personal) => (
-              <p
-                className="text-pretty p-0 font-mono text-sm text-muted-foreground"
-                key={personal}
-              >
-                {personal}
-              </p>
-            ))}
-          </div>
-        </Section>
-        <Section>
           <h2 className="text-xl font-bold">工作经验</h2>
           {MY_RESUME_DATA.workExperience.map((work) => {
             return (
@@ -100,9 +87,13 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
+                      {work.link ? (
+                        <a className="hover:underline" href={work.link}>
+                          {work.company}
+                        </a>
+                      ) : (
+                        <span>{work.company}</span>
+                      )}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
@@ -149,6 +140,19 @@ export default function Home() {
             })}
           </div>
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">个人优势</h2>
+          <div className="flex min-h-0 flex-col">
+            {MY_RESUME_DATA.personalStrengths.map((personal) => (
+              <p
+                className="text-pretty p-0 font-mono text-sm text-muted-foreground"
+                key={personal}
+              >
+                {personal}
+              </p>
+            ))}
+          </div>
+        </Section>
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">项目</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
@@ -159,7 +163,7 @@ export default function Home() {
                   title={project.title}
                   description={project.description}
                   tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
+                  link={"link" in project ? project?.link?.href : undefined}
                 />
               );
             })}

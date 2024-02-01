@@ -87,40 +87,63 @@ export const MY_RESUME_DATA = {
   ],
   projects: [
     {
-      title: "鲜活源",
-      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      title: "个人简历",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind Css",
+        "shadcn/ui",
+      ],
       description: "一个后台管理系统",
       link: {
-        label: "baidu.com",
-        href: "https://baidu.com",
+        label: "jasontianyu.com",
+        href: "https://jasontianyu.com",
       },
     },
     {
-      title: "鲜活源",
-      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      title: "新希望乳业鲜活源",
+      techStack: ["React", "TypeScript", "ant-design"],
       description: "一个后台管理系统",
       link: {
-        label: "baidu.com",
-        href: "https://baidu.com",
+        label: "fsl.newhopedairy.cn",
+        href: "https://fsl.newhopedairy.cn/fsl/login",
       },
     },
     {
-      title: "鲜活源",
-      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      title: "新希望乳业鲜活源（微信小程序）",
+      techStack: ["Vue", "uni-app"],
       description: "一个后台管理系统",
-      link: {
-        label: "baidu.com",
-        href: "https://baidu.com",
-      },
     },
     {
-      title: "鲜活源",
-      techStack: ["TypeScript", "Next.js", "Vite", "GraphQL"],
+      title: "集成运营小二工作台",
+      techStack: ["React", "TypeScript", "ant-design"],
       description: "一个后台管理系统",
-      link: {
-        label: "baidu.com",
-        href: "https://baidu.com",
-      },
+    },
+    {
+      title: "Freshline 鲜食在线（支付宝小程序）",
+      techStack: ["支付宝小程序原生api", "mini-ali-ui"],
+      description: "一个后台管理系统",
+    },
+    {
+      title: "微课学堂",
+      techStack: ["React", "ant-design"],
+      description: "一个后台管理系统",
+    },
+    {
+      title: "微课学堂H5",
+      techStack: ["React", "Umi", "ant-design-mobile"],
+      description: "一个后台管理系统",
+    },
+    {
+      title: "资讯平台",
+      techStack: ["React", "ant-design"],
+      description: "一个后台管理系统",
+    },
+    {
+      title: "串串大数据（webapp)",
+      techStack: ["Angular", "ionic"],
+      description: "一个后台管理系统",
     },
   ],
 };
