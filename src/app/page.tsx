@@ -80,6 +80,19 @@ export default function Home() {
           </p>
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">个人优势</h2>
+          <div className="flex min-h-0 flex-col">
+            {MY_RESUME_DATA.personalStrengths.map((personal) => (
+              <p
+                className="text-pretty p-0 font-mono text-sm text-muted-foreground"
+                key={personal}
+              >
+                {personal}
+              </p>
+            ))}
+          </div>
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">工作经验</h2>
           {MY_RESUME_DATA.workExperience.map((work) => {
             return (

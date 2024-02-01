@@ -7,7 +7,13 @@ export const MY_RESUME_DATA = {
   avatarUrl: "/vercel.svg",
   avatarInit: "JA",
   summary:
-    "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的工作环境，目前，我使用TypeScript，React，和Node.js。我已经拥有了6年的开发经验在前端开发的工作上。所以我能够胜任前端任何方面的工作。",
+    "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的前端项目。目前，我使用TypeScript、React、uni-app、ant-design等开发项目。我已经拥有了6年的开发经验在前端开发的工作上。",
+  personalStrengths: [
+    "1.熟练掌握 JavaScript、TypeScript、CSS 以及 ES6 - ES10 的新特性",
+    "2.擅长 React、Vue.js 技术栈及其生态，能快速运用相关技术完成项目的开发",
+    "3.熟练使用 UmiJS NextJs 等框架",
+    "4.熟悉 HTTP 协议，网络原理",
+  ],
   workExperience: [
     {
       company: "新希望乳业",
@@ -22,37 +28,37 @@ export const MY_RESUME_DATA = {
       company: "博彦科技",
       link: "https://www.beyondsoft.com/",
       title: "web前端开发工程师",
-      start: "2022",
-      end: "2019",
+      start: "2019",
+      end: "2022",
       description:
         "负责香港支付宝小程序、公司内部流程工具的开发，就职期间，创建了一支内部流程工具开发小队。技术： React、TypeScript、ant-design、umi",
     },
     {
       company: "成都燃光科技",
-      link: "https://www.newhopedairy.cn",
+      link: "",
       title: "web前端开发工程师",
       start: "2018",
       end: "2019",
       description:
-        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+        "负责类似telegram加密聊天web网页端开发。技术：React、ant-design",
     },
     {
       company: "成都福豆科技",
-      link: "https://www.newhopedairy.cn",
+      link: "https://www.ucuxin.com/index.html",
       title: "web前端开发工程师",
       start: "2017",
       end: "2018",
       description:
-        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+        "负责优客优信教育app的功能迭代, 项目后台管理系统开发。技术： React、TypeScript、ant-design",
     },
     {
       company: "易客网络",
-      link: "https://www.newhopedairy.cn",
+      link: "",
       title: "web前端开发工程师",
-      start: "2018",
-      end: "2016",
+      start: "2016",
+      end: "2017",
       description:
-        "实施新功能，领导团队，致力于改进开发人员发送代码的方式，开始从 Emotion 迁移到 Tailwind CSS 等。技术： React、TypeScript、GraphQL",
+        "开发教育项目新功能，把旧项目从Angular迁移到React等。技术： React、Angular、ionic",
     },
   ],
   education: [
@@ -72,9 +78,12 @@ export const MY_RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Vue.js",
+    "React/Vue/Next.js",
+    "Tailwind Css",
+    "ant-design",
+    "git",
     "Node.js",
-    "GraphQL",
+    "express",
   ],
   projects: [
     {
