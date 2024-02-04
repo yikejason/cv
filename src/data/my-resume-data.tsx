@@ -99,7 +99,8 @@ export const MY_RESUME_DATA = {
         "Tailwind Css",
         "shadcn/ui",
       ],
-      description: "一个后台管理系统",
+      description:
+        "这是一个关于我自己的简历项目，它可以支持修改我自己的简历内容。使用 create-next-app 脚手架初始一个 Next.js 项目，使用 Tailwind Css 做到内容和样式的分离，项目支持各个屏幕大小的适配(响应式设计)。Next.js 在构建时就生成了 Html 文件，所以它提供了出色的性能和最小的服务器负载。后续我的这个项目会增加国际化，简历内容按需定制，主题等功能。",
       link: {
         label: "jasontianyu.com",
         href: "https://jasontianyu.com",
@@ -108,7 +109,8 @@ export const MY_RESUME_DATA = {
     {
       title: "新希望乳业鲜活源",
       techStack: ["React", "TypeScript", "ant-design"],
-      description: "一个后台管理系统",
+      description:
+        "这是一个关于新希望华西、白帝等各个工厂内部使用的后台管理系统，使用人数超过千人我主要负责项目中的可视化监控(dashboard)、监察中心、飞检中心等模块的开发。我主要的开发工作是 ant-design 组件的二次封装,封装适合公司项目的业务组件(快速提高项目开发效率30%)，抽离封装公共代码，减少项目体积10%，项目编写单元测试，提前预知到项目的bug做优化和调整。",
       link: {
         label: "fsl.newhopedairy.cn",
         href: "https://fsl.newhopedairy.cn/fsl/login",
@@ -117,37 +119,44 @@ export const MY_RESUME_DATA = {
     {
       title: "新希望乳业鲜活源（微信小程序）",
       techStack: ["Vue", "uni-app"],
-      description: "一个后台管理系统",
+      description:
+        "这是一个关于新希望华西、白帝等各个工厂使用的监察中心小程序。我主要负责小程序所有模块的开发和调试。主要使用 uni-app 初始化项目，使用 Vuex 进行页面间数据的管理，手动封装适配项目的业务组件，如datePicker、tab、table等。",
     },
     {
       title: "集成运营小二工作台",
       techStack: ["React", "TypeScript", "ant-design"],
-      description: "一个后台管理系统",
+      description:
+        "项目初期，我负责技术调研和需求收集，并使用 React 技术栈，配合 webpack 脚手架搭建项目，在开发过程中，遇到了大文件上传的问题（主要是上传文件太大，导致上传时卡顿，直到服务端抛出了一个网关超时504的错误），后面了解到大文件的上传都是采用分片的形式进行上传，然后我去调研了分片上传的原理，最终解决了大文件上传的这个问题。上线后，得到了运营同学的一致好评。",
     },
     {
-      title: "Freshline 鲜食在线（支付宝小程序）",
+      title: "Freshline 鲜食快线（支付宝小程序）",
       techStack: ["支付宝小程序原生api", "mini-ali-ui"],
-      description: "一个后台管理系统",
-    },
-    {
-      title: "微课学堂",
-      techStack: ["React", "ant-design"],
-      description: "一个后台管理系统",
-    },
-    {
-      title: "微课学堂H5",
-      techStack: ["React", "Umi", "ant-design-mobile"],
-      description: "一个后台管理系统",
+      description:
+        "这是一个关于泰国生鲜购买的小程序，日活上万。我主要负责小程序所有模块的开发和调试。主要使用支付宝小程序原生能力构建项目，使用 mini-ali-ui 构建项目的组件库，使用分包、抽离公共代码、删除冗余代码等方式，优化小程序体积20%，负责结算页等复杂页面的重构，重新设计数据结构及参数配置等。",
     },
     {
       title: "资讯平台",
       techStack: ["React", "ant-design"],
-      description: "一个后台管理系统",
+      description:
+        "这是一个关于资讯收集的后台管理系统的项目，使用人数超过千人，我主要负责项目中所有模块的开发和调试，其中二次封装百度富文本编辑器，二次封装ant-design组件，优化首页加载速度。",
+    },
+    {
+      title: "微课学堂",
+      techStack: ["React", "ant-design"],
+      description:
+        "项目初期，我负责技术调研和需求收集，并使用 React 技术栈，配合 webpack  脚手架搭建项目，我负责整个项目的各个模块，在项目开发过程中，我发现各个页面的业务相似度很高，我开始着重封装对该项目的业务组件，实现通过配置 JSON  渲染各个页面，这不是单纯的后台管理系统，只要公司以后有业务相似的后台管理系统都能通过后台管理系统快速配置，这使得公司的后端同事和一些非研发同事能够快速上手前端开发（配置后台系统），从而提升了整体开发效率30%-40%，代码量减少60%，减少了人工写代码的成本。上线后，得到了用户和同事的一致好评。",
+    },
+    {
+      title: "微课学堂H5",
+      techStack: ["React", "Umi", "ant-design-mobile"],
+      description:
+        "项目初期，我负责技术调研和需求收集，并使用 React 技术栈，配合 webpack  脚手架搭建项目，在开发过程中，遇到了首屏加载速度缓慢的问题（主要是因为首屏页面请求太多和一些不必要的子组件的 render），后面通过 service-worker 浏览器缓存优先和本地数据存储一些不会更改的数据，CDN加速， React 避免多次render的一些hooks, 最终解决了首屏加载缓慢的问题。在项目过程中我主动和产品、后端沟通业务的实现，推进了项目的有序进行。",
     },
     {
       title: "串串大数据（webapp)",
       techStack: ["Angular", "ionic"],
-      description: "一个后台管理系统",
+      description:
+        "项目初期，我负责技术调研和需求收集，并使用 Angular 技术栈，配合 ionic 脚手架搭建项目，二次封装ionic ui组件为业务通用组件，优化app首页加载速度，从而提高了app整体的访问速度和性能。",
     },
   ],
 };

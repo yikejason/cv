@@ -176,7 +176,7 @@ export default function Home() {
         </Section>
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">项目</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 print:grid-cols-2 print:gap-2">
             {MY_RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
