@@ -2,6 +2,8 @@ export const MY_RESUME_DATA = {
   name: "余天雄",
   about: "我是一名前端工程师, 目前工作在成都, 如果看到我的简历请联系我",
   location: "四川,成都",
+  locationUrl:
+    "https://www.amap.com/search?query=%E6%88%90%E9%83%BD&city=510000&geoobj=103.424616%7C30.159244%7C105.347972%7C31.208525&zoom=9.46",
   email: "18215513386@163.com",
   tel: "18215513386",
   gitHub: {
