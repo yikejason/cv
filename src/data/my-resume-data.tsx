@@ -10,7 +10,7 @@ export const MY_RESUME_DATA = {
     link: "https://github.com/yikejason",
     name: "yikejason",
   },
-  avatarUrl: "/avatar.jpeg",
+  avatarUrl: "/normal_avatar.jpeg",
   avatarInit: "JA",
   summary:
     "作为一名前端工程师，我已经从0到1开发了多个产品。我领导过团队，构建过最好的前端项目。目前，我使用TypeScript、React、Vue、Next.js、uni-app、ant-design等开发项目。我已经拥有了6年的开发经验在前端开发的工作上。",

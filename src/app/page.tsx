@@ -89,7 +89,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="h-32 w-24">
             <AvatarImage alt="jason" src={MY_RESUME_DATA.avatarUrl} />
             <AvatarFallback>{MY_RESUME_DATA.avatarInit}</AvatarFallback>
           </Avatar>
