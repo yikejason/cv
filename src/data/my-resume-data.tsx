@@ -71,8 +71,8 @@ export const MY_RESUME_DATA = {
     {
       school: "电子科技大学",
       degree: "软件工程",
-      start: "2020",
-      end: "2018",
+      start: "2018",
+      end: "2020",
     },
     {
       school: "四川航天职业技术学院",
